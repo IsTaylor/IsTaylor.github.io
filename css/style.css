@@ -1,0 +1,63 @@
+html {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../leaf.jpg");
+  overflow: hidden;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: white;
+}
+
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  background-color: rgba(0,0,0,0.25);
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: 'Unica One', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+li {
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  font-style: normal;
+}
+
+
+a:hover {
+  font-style: italic;
+}
