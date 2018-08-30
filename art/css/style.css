@@ -1,0 +1,43 @@
+
+body {
+  background-image: linear-gradient(#e7ffda, #8ce7ff);
+  margin: 80px auto 80px auto;
+  width: 1140px;
+  overflow: auto;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px 20px
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: 'Unica One', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  grid-column: span 1;
+}
+
+img.big1 {
+  grid-column: span 2;
+}
+
+img.big2 {
+  grid-column: span 2;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rgb(225, 254, 223)px;
+}
+
+.flex-item {
+  margin: 30px 0px 0px 0px;
+}
